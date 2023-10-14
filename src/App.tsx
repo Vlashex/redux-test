@@ -1,25 +1,16 @@
-import * as React from 'react';
+import React from 'react'
 import './app.scss'
+import FirstScreen from './pages/first-screen';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
-export interface IAppProps {
-}
 
-export interface IAppState {
-}
-
-export default class App extends React.Component<IAppProps, IAppState> {
-  constructor(props: IAppProps) {
-    super(props);
-
-    this.state = {
-    }
-  }
-
-  public render() {
-    return (
-      <div className='app'>
-        <h1>Hi</h1>
-      </div>
-    );
-  }
-}
+ const App = () => {
+  return (
+    <FirstScreen/>
+  );
+ };
+ 
+ export default App;

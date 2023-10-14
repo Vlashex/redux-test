@@ -1,0 +1,16 @@
+.first-screen-tariffs{
+
+
+    .tariffs-list{
+        display: flex;
+        justify-content: space-between;
+
+
+        .tariff{
+            border-radius: 5px;
+            width: 200px;
+            height: 500px;
+            background-color: #B1D6F8;
+        }
+    }
+}
