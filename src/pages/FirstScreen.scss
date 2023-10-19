@@ -1,0 +1,40 @@
+.first-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        background-image: url('https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/xxxmin.jpg');
+        background-position: 0;
+        font-size: 60px;
+        color: #fff;
+    }
+
+
+    .pizza-menu{
+        margin-top: -100px;
+        padding: 0 140px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cart{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        padding: 0 140px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}
+
